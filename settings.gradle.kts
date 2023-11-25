@@ -13,6 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Android_Lab2"
+rootProject.name = "android-hse-course-lab2"
 include(":app")
- 
