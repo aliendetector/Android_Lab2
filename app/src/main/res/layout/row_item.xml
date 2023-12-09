@@ -5,20 +5,24 @@
 
     <TextView
         android:id="@+id/product"
-        android:layout_width="270dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:fontFamily="@font/helveticaneuecyr_black"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
         android:textColor="@color/black"
         android:textSize="20sp" />
 
     <Button
         android:id="@+id/removeButton"
-        android:layout_width="110dp"
-        android:layout_marginStart="275dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|end"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#781111"
+        android:fontFamily="sans-serif-black"
         android:text="@string/remove"
-        android:textSize="13sp"
-        android:fontFamily="@font/helveticaneuecyr_black" />
+        android:textSize="13sp" />
 
 </FrameLayout>
